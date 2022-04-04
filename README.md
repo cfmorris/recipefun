@@ -6,6 +6,7 @@ This project scraped my favorite cooking blog and presented all the recipes on a
 Really it was just to learn javascript and sharpen my python webscraping skills.
 
 # needs work:
+- Recipes are objects, tables of data are not.  Format the json better.
 - all the styling
 - use a database!
 - figure out why directions become disordered.
