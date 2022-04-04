@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Recipe List</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="newcss.css">
+</head>
+<body>
+
+    <div class="header" id="testHead">
+        <h1>The Morris Menu</h1>
+    </div>
+    
+    <div class="ui-widget">
+        
+      <div class="row">
+        <div class="nav" id="rando">
+            <button id="random">Randomizer</button>
+        </div>                     
+        
+        <div class="nav">
+            <div class="ui-widget">
+                
+                <label for="titleSearchInput">Recipes: </label>
+                <input id="titleSearchInput" placeholder="Search by title" width="600px">
+        
+              </div>              
+        </div>
+        <div class="nav" id="dropmenu">
+            <select id="meals" class="dropMeals"></select>
+        </div>      
+      </div>
+    
+    <div class="row" id="content">
+      <div class="column left" id="sidebar">
+            <h1 id="image1">List</h1>
+            <h2>Ingredients list:</h2>
+            <div id="displayIngredients"></div>
+      </div>
+      <div class="column center"></div>
+      <div class="column right" id ="conbox">
+        <h1 id="title"></h1>
+
+        <h2 id="sourceURL"></h2>
+        <div id="image2"></div>
+        <h2 id="source">Instructions:<br></h2>
+        <ol id="instructions"></ol>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="data.js" id="recipeMaster"></script>
+    <script src="project-v4.js"></script>    
+    </body>
+    </html>
