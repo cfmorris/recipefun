@@ -9,8 +9,8 @@ Really it was just to learn javascript and sharpen my python webscraping skills.
 
 # how to use
 
-1. Tailor the scraper to your desired website.  This will involve inputting the prooper urls, making sure it iterates through each page of the search tool, and confirming that beautiful soup is pulling content from the appropriate tags.
-2. Make sure the data is formatted appropriately: URLS, ingredients(a list), directions, image urls, etc.
+1. Tailor the scraper to your desired website.  This will involve inputting the proper urls, making sure it iterates through each page of the search tool, and confirming that beautiful soup is ptargeting content from the appropriate tags.
+2. Make sure the data is formatted appropriately: URLS, ingredients(list), directions(list), image urls, etc.
 3. Save all files in the same directory.
 4. Run the html page in a web browser.
 
